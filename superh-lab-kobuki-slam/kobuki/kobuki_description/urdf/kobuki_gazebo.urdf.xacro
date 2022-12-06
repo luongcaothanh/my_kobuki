@@ -211,7 +211,7 @@
                     <alwaysOn>true</alwaysOn>
                     <updateRate>10.0</updateRate>
                     <cameraName>camera1</cameraName>
-                    <frameName>camera_depth_frame</frameName>
+                    <frameName>camera1_depth_frame</frameName>
                     <imageTopicName>rgb/image_raw</imageTopicName>
                     <depthImageTopicName>depth/image_raw</depthImageTopicName>
                     <pointCloudTopicName>depth/points</pointCloudTopicName>
@@ -255,7 +255,7 @@
                     <alwaysOn>true</alwaysOn>
                     <updateRate>10.0</updateRate>
                     <cameraName>camera2</cameraName>
-                    <frameName>camera_depth_frame</frameName>
+                    <frameName>camera2_depth_frame</frameName>
                     <imageTopicName>rgb/image_raw</imageTopicName>
                     <depthImageTopicName>depth/image_raw</depthImageTopicName>
                     <pointCloudTopicName>depth/points</pointCloudTopicName>
@@ -279,9 +279,9 @@
         <!-- rplidar -->
         <gazebo reference="laser">
             <material>Gazebo/Black</material>
-            <sensor type="gpu_ray" name="head_rplidar_sensor">
+            <sensor type="ray" name="head_rplidar_sensor">
                 <pose>0 0 0 0 0 0</pose>
-                <visualize>false</visualize>
+                <visualize>true</visualize>
                 <update_rate>40</update_rate>
                 <ray>
                     <scan>
@@ -303,7 +303,7 @@
                         <stddev>0.01</stddev>
                     </noise>
                 </ray>
-                <plugin name="gazebo_ros_head_rplidar_controller" filename="libgazebo_ros_gpu_laser.so">
+                <plugin name="gazebo_ros_head_rplidar_controller" filename="libgazebo_ros_laser.so">
                     <topicName>scan</topicName>
                     <frameName>laser</frameName>
                 </plugin>
