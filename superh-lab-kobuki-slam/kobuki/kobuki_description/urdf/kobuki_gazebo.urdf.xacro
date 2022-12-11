@@ -210,7 +210,7 @@
                 <plugin name="kinect_controller" filename="libgazebo_ros_openni_kinect.so">
                     <alwaysOn>true</alwaysOn>
                     <updateRate>10.0</updateRate>
-                    <cameraName>camera1</cameraName>
+                    <cameraName>camera_01</cameraName>
                     <frameName>camera1_depth_frame</frameName>
                     <imageTopicName>rgb/image_raw</imageTopicName>
                     <depthImageTopicName>depth/image_raw</depthImageTopicName>
@@ -254,7 +254,7 @@
                 <plugin name="kinect_controller" filename="libgazebo_ros_openni_kinect.so">
                     <alwaysOn>true</alwaysOn>
                     <updateRate>10.0</updateRate>
-                    <cameraName>camera2</cameraName>
+                    <cameraName>camera_02</cameraName>
                     <frameName>camera2_depth_frame</frameName>
                     <imageTopicName>rgb/image_raw</imageTopicName>
                     <depthImageTopicName>depth/image_raw</depthImageTopicName>
