@@ -1,0 +1,12 @@
+- {id: '1682005329653', name: station 34, orientationW: -0.722973644733429, orientationX: 0.0,
+  orientationY: 0.0, orientationZ: 0.6908755898475647, positionX: -0.868026852607727,
+  positionY: -5.608456134796143, positionZ: 0.0}
+- {id: '1682088787114', name: station 5, orientationW: 0.019555510953068733, orientationX: 0.0,
+  orientationY: 0.0, orientationZ: 0.9998087882995605, positionX: 8.290372848510742,
+  positionY: -0.3164559602737427, positionZ: 0.0}
+- {id: '1682088995821', name: NoName, orientationW: -0.6920887231826782, orientationX: 0.0,
+  orientationY: 0.0, orientationZ: 0.7218124270439148, positionX: -1.6789268255233765,
+  positionY: 5.10154390335083, positionZ: 0.0}
+- {id: '1682127331368', name: table, orientationW: -0.9664127230644226, orientationX: 0.0,
+  orientationY: 0.0, orientationZ: 0.2569951117038727, positionX: -6.806676864624023,
+  positionY: 0.145544171333313, positionZ: 0.0}
